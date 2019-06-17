@@ -1,0 +1,2 @@
+# Mygit
+Details of git
