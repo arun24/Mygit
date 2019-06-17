@@ -50,3 +50,18 @@ what is pull and featch?
 
 --All ways we can pull latest code from Mater it is beter.
   and create new branch and work on new branch for tasks/bugs
+  
+  $ git pull origin master
+From https://bitbucket.org/arun241/june-6pm
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+hp@DESKTOP-169GTSV MINGW64 /d/git-june-6pm/june-6pm (master)
+$ git branch task-one
+
+hp@DESKTOP-169GTSV MINGW64 /d/git-june-6pm/june-6pm (master)
+$ git branch
+* master
+  task-one
+  
+  
