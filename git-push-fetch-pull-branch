@@ -1,0 +1,52 @@
+#Pushing changes to git
+
+git status
+
+git add filename
+
+git commit -m "meaasges"
+
+git log --oneline
+
+git log --oneline -3
+
+git log one.txt (commit version of one.txt file)
+
+
+checking out a file with specipic 
+
+git checkout <commitid>
+
+git checkout master
+
+##git push origin master
+
+(origin pointing to <https://arun241@bitbucket.org/arun241/june-6pm.git>)
+
+(branch <master> (which branch to you push like master,newbranch,features ete....))
+
+(origin--> is create when you cloned repository that happen implicitly)
+
+(the time stmp when we commit that time only create timestamp,not while pushing time timestamp)
+
+
+##git pull and Featch
+
+what is pull and featch?
+
+#git Featch (other devloper chages their work and to push remote)
+ it gets all new commits pushed by other developers to local  without merging with local repository.
+#git pull
+ it gets all new commits pushed by other developers to local and it merges with local repository.
+
+
+#Git barch
+
+--branch gives isolation to your tasks, you can think of branch as a workspace(floder) containing changes or commits.
+--Every repository by default comes with master(main branch).
+--We should not directly work on master, we have to create temporary branch for every separate tasks/bugs, 
+  After code is reviewed then  we have to integrate with main branch.
+--In real life you will not have access to write to master branch.
+
+--All ways we can pull latest code from Mater it is beter.
+  and create new branch and work on new branch for tasks/bugs
