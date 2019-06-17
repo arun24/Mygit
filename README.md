@@ -1,18 +1,18 @@
 # Mygit
 Details of git
-# Git Installation Steps
-# Install Git on Linux
+## Git Installation Steps
+### Install Git on Linux
 Redhat/CentOS/Fedora(dnf/yum)
 Git packages are available via both yum and dnf(Fedora only):
 
 From your shell, install Git using dnf (or yum, on older versions of Fedora):
-'''
-$ sudo yum install git
-'''
+```
+$ sudo yum install git -y
+```
 or
-$ sudo dnf install git
+```
+$ sudo dnf install git -y
 
-$ sudo yum install git
 Verify the installation was successful by typing git --version:
 '''
 $ git --version
