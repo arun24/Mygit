@@ -18,9 +18,10 @@ Verify the installation was successful by typing git --version:
 $ git --version
 git version 2.9.2
 '''
-Configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you create
+Configure your Git username and email using the following commands, replacing Emma's name with your own. 
+These details will be associated with any commits that you create
 
-$ git config --global user.name "Emma Paris"
-$ git config --global user.email "eparis@atlassian.
+$ git config --global user.name "Arunreddy"
+$ git config --global user.email "arunreddyinfo@gmail.com"
 
 
